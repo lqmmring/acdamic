@@ -14,7 +14,6 @@
 
 #### 发表期刊论文列表（List of Journal Publications）
 
-**李四***
 1. **Liu, Q.**, Zhang, D., Wang, G., & Wang, Y*. (2024). Automatically detecting anchor cells and clustering for scRNA-seq data using scTSNN. IEEE Journal of Biomedical and Health Informatics. Early Access, doi: 10.1109/JBHI.2024.3460761. (IF:7.122, 中科院小类1区, JCR Q1, TOP期刊)
 
 2. **Liu, Q.**, Wang, Y*, & Wang, G*. (2024, December). scEAGC: an efficient anchor graph clustering for single-cell transcriptomics and proteomics data. In 2024 IEEE International Conference on Bioinformatics and Biomedicine (BIBM) (pp. 320-326). IEEE. (CCF B类会议, 生物信息学顶会)
@@ -29,11 +28,11 @@
 
 7. **Liu, Q.**, Liang, Y., Wang, D., & Li, J*. (2022). LFSC: A linear fast semi-supervised clustering algorithm that integrates reference-bulk and single-cell transcriptomes. Frontiers in Genetics, 13, 1068075. (IF:3.3, 中科院大类3区, JCR Q2)
 
-8.	Lu, X., Zhou, M., Gao, B., Wang, F., Jin, S., **Liu, Q***, & Wang, G*. (2025). stGRL: spatial domain identification, denoising, and imputation algorithm for spatial transcriptome data based on multi-task graph contrastive representation learning. BMC biology, 23(1), 177. 
+8. Lu, X., Zhou, M., Gao, B., Wang, F., Jin, S., **Liu, Q***, & Wang, G*. (2025). stGRL: spatial domain identification, denoising, and imputation algorithm for spatial transcriptome data based on multi-task graph contrastive representation learning. BMC biology, 23(1), 177. 
 
 9. Zhou, M., Luo, Z., Yin, Y. H., **Liu, Q***, Wang, G*, & Zhao, Y*. (2025). scATD: a high-throughput and interpretable framework for single-cell cancer drug resistance prediction and biomarker identification. Briefings in Bioinformatics, 26(3). 
 
-10. Cui, L., Wang, F., Li, H., Liu, Q., Zhou, M., & Wang, G*. (2025). annATAC: automatic cell type annotation for scATAC-seq data based on language model. BMC biology, 23(1), 145.
+10. Cui, L., Wang, F., Li, H., **Liu, Q.**, Zhou, M., & Wang, G*. (2025). annATAC: automatic cell type annotation for scATAC-seq data based on language model. BMC biology, 23(1), 145.
 
 11. Zhao, H., Li, H., **Liu, Q.**, Dong, G., Hou, C., Li, Y., & Zhao, Y*. (2024). Using TransR to enhance drug repurposing knowledge graph for COVID-19 and its complications. Methods, 221, 82-90. (IF:4.2, 中科院大类3区, JCR Q2)
 
