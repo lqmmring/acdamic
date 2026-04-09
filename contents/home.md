@@ -49,7 +49,7 @@
 * 中国计算机学会（CCF）生物信息学专委会 &ensp;	委员
 * 中国计算机学会（CCF）Bio 3news委员会 &ensp;	执行委员
 * 国际生物信息学和生物医学会议（BIBM） &ensp;	程序委员
-* Cell Proliferation &ensp;	青年编委 
+* Cell Proliferation、Medicine  Advance、Phenomics&ensp;	青年编委 
 * 《Bioinformatics》、《Briefings in Bioinformatics》、《Frontiers in Genetics》、《PLOS Computational Biology》等生物信息学期刊审稿人。
 
 #### Academic Services
@@ -57,6 +57,8 @@
 * Member, Bioinformatics Committee, China Computer Federation (CCF)
 * Executive Member, Bio 3news Committee, China Computer Federation (CCF)
 * Program Committee Member, International Conference on Bioinformatics and Biomedicine (BIBM)
+* Cell Proliferation, Medicine Advance, Phenomics &nbsp; Young Editorial Board Member
+* Peer reviewer for Bioinformatics, Briefings in Bioinformatics, Frontiers in Genetics, PLOS Computational Biology.
 ---
 
 #### 招生说明
