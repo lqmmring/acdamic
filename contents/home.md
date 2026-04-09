@@ -31,6 +31,7 @@
 [//]: # (- 06/13, 2025: One corresponding author paper entitled stGRL: spatial domain identification, denoising and imputation algorithm for spatial transcriptome data based on multi-task Graph contrastive Representation Learning has been successfully accepted by BMC Biology.)
 
 [//]: # (---)
+
 #### 研究方向 
 * 生物大数据分析与管理
 * 单细胞数据分析算法与系统 
