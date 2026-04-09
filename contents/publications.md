@@ -9,9 +9,6 @@
 
 - 河南省自然科学基金青年项目，5万元，在研，主持
 
-
-![img.png](img.png)
-
 #### 发表期刊论文列表（List of Journal Publications）
 1. Zhao, Y*, X, Luo, Z, **Liu, Q***. (2026). Single-cell Phenotype-associated Subpopulation Identification via Transfer Foundation Model and Statistical Ensemble Learning. BMC biology. Early Access. 
 
