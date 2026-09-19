@@ -1,0 +1,53 @@
+name: 新增或更新论文
+description: 提交后自动更新学术主页；仅仓库所有者及有写权限的维护者可发布。
+title: "[论文] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        填写后点击 Submit new issue。处理结果请查看 Actions → Publish homepage content。
+        修改同一个 Issue 的正文可更新该论文，不会重复添加。请勿删除字段标题。
+        所有字段填写纯文本；论文将放在列表顶部。关闭 Issue 不会删除已发布论文。
+  - type: input
+    id: title
+    attributes:
+      label: 论文标题
+    validations:
+      required: true
+  - type: input
+    id: authors
+    attributes:
+      label: 作者
+      description: 按发表顺序填写，通讯作者可用星号标记。
+      placeholder: "Liu, Q., Wang, Y*, & Wang, G*."
+    validations:
+      required: true
+  - type: input
+    id: year
+    attributes:
+      label: 年份
+      placeholder: "2026"
+    validations:
+      required: true
+  - type: input
+    id: venue
+    attributes:
+      label: 期刊或会议
+      placeholder: "Briefings in Bioinformatics"
+    validations:
+      required: true
+  - type: input
+    id: details
+    attributes:
+      label: 卷期页码或发表状态
+      placeholder: "26(6), bbaf574 / Early Access"
+  - type: input
+    id: paper_url
+    attributes:
+      label: 论文链接
+      description: 完整的 https 链接，例如 https://doi.org/...
+  - type: input
+    id: code_url
+    attributes:
+      label: 代码链接
+      placeholder: "https://github.com/..."

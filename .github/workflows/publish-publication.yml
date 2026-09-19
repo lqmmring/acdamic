@@ -1,0 +1,31 @@
+name: Publish homepage content
+
+on:
+  issues:
+    types: [opened, edited, reopened]
+
+permissions:
+  contents: write
+  issues: read
+  pages: write
+
+concurrency:
+  group: homepage-issue-${{ github.event.issue.number }}
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    if: startsWith(github.event.issue.title, '[论文]') || startsWith(github.event.issue.title, '[新闻]')
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate, update and request Pages build
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python scripts/publish_publication.py

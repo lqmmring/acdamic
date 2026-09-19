@@ -1,6 +1,6 @@
 const content_dir = 'contents/'
 const config_file = 'config.yml'
-const section_names = ['home', 'awards', 'experience', 'publications'];
+const section_names = ['home', 'news', 'experience', 'publications'];
 
 
 window.addEventListener('DOMContentLoaded', event => {
@@ -49,10 +49,19 @@ window.addEventListener('DOMContentLoaded', event => {
     marked.use({ mangle: false, headerIds: false })
     section_names.forEach((name, idx) => {
         fetch(content_dir + name + '.md')
-            .then(response => response.text())
+            .then(response => {
+                if (!response.ok) throw new Error(`Failed to load ${name}: ${response.status}`);
+                return response.text();
+            })
             .then(markdown => {
                 const html = marked.parse(markdown);
                 document.getElementById(name + '-md').innerHTML = html;
+                if (name === 'news') {
+                    const hasNews = Boolean(document.querySelector('#news-md li'));
+                    document.getElementById('news').hidden = !hasNews;
+                    document.getElementById('news-nav').hidden = !hasNews;
+                }
+                bootstrap.ScrollSpy.getInstance(document.body)?.refresh();
             }).then(() => {
                 // MathJax
                 MathJax.typeset();

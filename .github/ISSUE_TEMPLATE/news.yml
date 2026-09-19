@@ -1,0 +1,33 @@
+name: 发布或更新新闻
+description: 填写日期和内容，自动更新主页新闻；仅有仓库写权限的维护者可发布。
+title: "[新闻] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        新闻按日期倒序显示。修改同一个 Issue 可更新原新闻；关闭 Issue 不会删除新闻。
+        请使用纯文本并保留字段标题。处理结果见 Actions → Publish homepage content。
+  - type: input
+    id: date
+    attributes:
+      label: 新闻日期
+      placeholder: "2026-09-19"
+    validations:
+      required: true
+  - type: input
+    id: chinese
+    attributes:
+      label: 中文内容
+      placeholder: "一篇论文被 Briefings in Bioinformatics 接收。"
+    validations:
+      required: true
+  - type: input
+    id: english
+    attributes:
+      label: 英文内容
+      description: 可选，填写后显示在中文内容下方。
+  - type: input
+    id: link
+    attributes:
+      label: 相关链接
+      placeholder: "https://doi.org/..."
