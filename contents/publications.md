@@ -1,4 +1,6 @@
 #### 科研项目
+
+<!-- module:projects-zh:start -->
 - 河南大学“百人计划”高层次人才科研启动项目，在研，主持
 
 - 国家自然科学基金青年项目，在研，主持
@@ -9,13 +11,19 @@
 
 - 河南省自然科学基金青年项目，结题，主持
 
+
+<!-- module:projects-zh:end -->
 #### Research Projects
+
+<!-- module:projects-en:start -->
 - Henan University "Hundred Talents Program" High-Level Talent Research Startup Project, Ongoing, Principal Investigator
 - National Natural Science Foundation of China (NSFC) Young Scientist Fund, Ongoing, Principal Investigator
 - China Postdoctoral General Program (74th Batch), Completed, Principal Investigator
 - National Postdoctoral Fellowship Program, Completed, Principal Investigator
 - Henan Provincial Natural Science Foundation for Young Scholars, Completed, Principal Investigator
 
+
+<!-- module:projects-en:end -->
 #### 发表期刊论文列表（List of Journal Publications）
 1. Zhao, Y*, X, Luo, Z, **Liu, Q***. (2026). Single-cell Phenotype-associated Subpopulation Identification via Transfer Foundation Model and Statistical Ensemble Learning. BMC biology. Early Access. 
 

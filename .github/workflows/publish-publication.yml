@@ -15,7 +15,17 @@ concurrency:
 
 jobs:
   publish:
-    if: startsWith(github.event.issue.title, '[论文]') || startsWith(github.event.issue.title, '[新闻]')
+    if: >-
+      startsWith(github.event.issue.title, '[论文]') ||
+      startsWith(github.event.issue.title, '[新闻]') ||
+      startsWith(github.event.issue.title, '[个人简介]') ||
+      startsWith(github.event.issue.title, '[研究方向]') ||
+      startsWith(github.event.issue.title, '[学术兼职]') ||
+      startsWith(github.event.issue.title, '[招生说明]') ||
+      startsWith(github.event.issue.title, '[联系方式]') ||
+      startsWith(github.event.issue.title, '[教育经历]') ||
+      startsWith(github.event.issue.title, '[科研项目]') ||
+      startsWith(github.event.issue.title, '[站点信息]')
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:

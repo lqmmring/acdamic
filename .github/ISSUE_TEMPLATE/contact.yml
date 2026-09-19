@@ -1,0 +1,35 @@
+{
+  "name": "更新联系方式",
+  "description": "通过表单更新主页的联系方式",
+  "title": "[联系方式] ",
+  "body": [
+    {
+      "type": "markdown",
+      "attributes": {
+        "value": "只填写要更新的语言版本，留空保留原文；输入【清空】清除该语言内容。\n每个填写的字段会整体替换该区域，列表请提交完整列表。\n修改同一个 Issue 可再次更新。关闭 Issue 不会撤销修改。仅仓库有写权限的维护者可发布。\n请勿删除字段标题或修改标题前缀。不要重跑旧 Issue，以免覆盖较新的内容。\n当前内容：https://github.com/lqmmring/acdamic/blob/pesonal/contents/home.md\n支持 Markdown：列表每行以 - 开头，链接用 [文字](https://地址)，小标题使用 #### 或 #####。招生表格可使用 Markdown 表格。"
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "field_0",
+      "attributes": {
+        "label": "中文联系方式",
+        "description": "只填写要更新的语言版本，留空保留原文；输入【清空】清除该语言内容。"
+      },
+      "validations": {
+        "required": false
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "field_1",
+      "attributes": {
+        "label": "英文联系方式",
+        "description": "只填写要更新的语言版本，留空保留原文；输入【清空】清除该语言内容。"
+      },
+      "validations": {
+        "required": false
+      }
+    }
+  ]
+}

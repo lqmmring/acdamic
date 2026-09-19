@@ -1,0 +1,68 @@
+{
+  "name": "更新站点信息",
+  "description": "通过表单更新主页的站点信息",
+  "title": "[站点信息] ",
+  "body": [
+    {
+      "type": "markdown",
+      "attributes": {
+        "value": "填写要修改的字段。留空保留原值；输入【清空】清除该字段。\n每个填写的字段会整体替换该区域，列表请提交完整列表。\n修改同一个 Issue 可再次更新。关闭 Issue 不会撤销修改。仅仓库有写权限的维护者可发布。\n请勿删除字段标题或修改标题前缀。不要重跑旧 Issue，以免覆盖较新的内容。\n当前内容：https://github.com/lqmmring/acdamic/blob/pesonal/contents/config.yml"
+      }
+    },
+    {
+      "type": "input",
+      "id": "field_0",
+      "attributes": {
+        "label": "网页标题",
+        "description": "填写要修改的字段。留空保留原值；输入【清空】清除该字段。"
+      },
+      "validations": {
+        "required": false
+      }
+    },
+    {
+      "type": "input",
+      "id": "field_1",
+      "attributes": {
+        "label": "导航姓名",
+        "description": "填写要修改的字段。留空保留原值；输入【清空】清除该字段。"
+      },
+      "validations": {
+        "required": false
+      }
+    },
+    {
+      "type": "input",
+      "id": "field_2",
+      "attributes": {
+        "label": "横幅标语",
+        "description": "填写要修改的字段。留空保留原值；输入【清空】清除该字段。"
+      },
+      "validations": {
+        "required": false
+      }
+    },
+    {
+      "type": "input",
+      "id": "field_3",
+      "attributes": {
+        "label": "主页姓名",
+        "description": "填写要修改的字段。留空保留原值；输入【清空】清除该字段。"
+      },
+      "validations": {
+        "required": false
+      }
+    },
+    {
+      "type": "input",
+      "id": "field_4",
+      "attributes": {
+        "label": "版权文字",
+        "description": "填写要修改的字段。留空保留原值；输入【清空】清除该字段。"
+      },
+      "validations": {
+        "required": false
+      }
+    }
+  ]
+}

@@ -11,6 +11,7 @@ from pathlib import Path
 from urllib.error import HTTPError
 from urllib.parse import quote, urlsplit
 from urllib.request import Request, urlopen
+from content_modules import MODULES, module_from_title, parse_module, update_module
 
 
 FIELDS = ('论文标题', '作者', '年份', '期刊或会议', '卷期页码或发表状态', '论文链接', '代码链接')
@@ -131,24 +132,26 @@ def main():
     number = int(event['issue']['number'])
     # Fetch current content, so queued edits never publish an outdated event body.
     issue = api('GET', f'{repo}/issues/{number}')
+    module = module_from_title(issue['title'])
     news = issue['title'].startswith('[新闻]')
-    if not news and not issue['title'].startswith('[论文]'):
+    if not module and not news and not issue['title'].startswith('[论文]'):
         print('非内容表单，跳过。')
         return
     for login in {issue['user']['login'], event['sender']['login']}:
         permission = api('GET', repo + '/collaborators/' + quote(login, safe='') + '/permission')
         if permission['permission'] not in ('admin', 'write', 'maintain'):
             raise ValueError('仅有仓库写权限的提交者和编辑者可发布')
-    values = parse_body(issue['body'] or '', news=news)
+    values = parse_module(issue['body'] or '', module) if module else parse_body(issue['body'] or '', news=news)
     pages = api('GET', repo + '/pages')
     if pages['build_type'] != 'legacy' or pages['source']['path'] != '/':
         raise ValueError('此流程要求 Pages 从分支根目录发布；请参阅 README')
     branch = pages['source']['branch']
-    endpoint = repo + '/contents/contents/' + ('news.md' if news else 'publications.md')
+    filename = MODULES[module][0] if module else ('news.md' if news else 'publications.md')
+    endpoint = repo + '/contents/contents/' + filename
     for attempt in range(5):
         current = api('GET', endpoint + '?ref=' + quote(branch, safe=''))
         original = base64.b64decode(current['content']).decode('utf-8')
-        updated = (update_news if news else update_markdown)(original, number, values)
+        updated = update_module(original, module, values) if module else (update_news if news else update_markdown)(original, number, values)
         if original == updated:
             print('内容已同步；重新请求发布。')
             break
