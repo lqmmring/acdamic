@@ -1,0 +1,268 @@
+{
+  "profile_id": "qksAJxwAAAAJ",
+  "last_success_at": "2026-09-20T01:03:08.483288+00:00",
+  "fetched_count": 29,
+  "records": [
+    {
+      "id": "qksAJxwAAAAJ:4TOpqqG69KYC",
+      "title": "scTACL: a multitask topology-aware contrastive learning approach for single-cell transcriptomics analysis",
+      "authors": "M Zhou, X Lu, Y Liang, AWC Kow, G Wang, Q Liu, Y Zhao",
+      "venue": "Bioinformatics 42 (6), btag361, 2026",
+      "year": "2026",
+      "citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&user=qksAJxwAAAAJ&citation_for_view=qksAJxwAAAAJ%3A4TOpqqG69KYC"
+    },
+    {
+      "id": "qksAJxwAAAAJ:Wp0gIr-vW9MC",
+      "title": "ViMST: vision transformer-based dual modality multi-task graph contrastive network for spatial transcriptomics microenvironments investigation",
+      "authors": "C Ding, Q Liu, Y Zhao",
+      "venue": "BMC biology, 2026",
+      "year": "2026",
+      "citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&user=qksAJxwAAAAJ&citation_for_view=qksAJxwAAAAJ%3AWp0gIr-vW9MC"
+    },
+    {
+      "id": "qksAJxwAAAAJ:YOwf2qJgpHMC",
+      "title": "Single-cell phenotype-associated subpopulation identification via transfer foundation model and statistical ensemble learning",
+      "authors": "Y Zhao, X Pan, Z Luo, Q Liu",
+      "venue": "BMC biology 24 (1), 140, 2026",
+      "year": "2026",
+      "citations": 1,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&user=qksAJxwAAAAJ&citation_for_view=qksAJxwAAAAJ%3AYOwf2qJgpHMC"
+    },
+    {
+      "id": "qksAJxwAAAAJ:4DMP91E08xMC",
+      "title": "Image-guided spatial omics enhancement reveals hidden spatial microstructures",
+      "authors": "J Liu, G Luo, Q Liu, S Dong, G Wang, Y Zhao",
+      "venue": "Bioinformatics 42 (8), btag596, 2026",
+      "year": "2026",
+      "citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&user=qksAJxwAAAAJ&citation_for_view=qksAJxwAAAAJ%3A4DMP91E08xMC"
+    },
+    {
+      "id": "qksAJxwAAAAJ:aqlVkmm33-oC",
+      "title": "DPCGS: a computational framework for linking GWAS to single-cell transcriptomics in complex traits and diseases",
+      "authors": "C Liu, B Yuan, B Shen, J Li, R Zhu, P Yang, B Wu, Y Xuan, S Yang, ...",
+      "venue": "bioRxiv, 2026.07. 14.738331, 2026",
+      "year": "2026",
+      "citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&user=qksAJxwAAAAJ&citation_for_view=qksAJxwAAAAJ%3AaqlVkmm33-oC"
+    },
+    {
+      "id": "qksAJxwAAAAJ:KlAtU1dfN6UC",
+      "title": "stGRL: spatial domain identification, denoising, and imputation algorithm for spatial transcriptome data based on multi-task graph contrastive representation learning",
+      "authors": "X Lu, M Zhou, B Gao, F Wang, S Jin, Q Liu, G Wang",
+      "venue": "BMC biology 23 (1), 177, 2025",
+      "year": "2025",
+      "citations": 15,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&user=qksAJxwAAAAJ&citation_for_view=qksAJxwAAAAJ%3AKlAtU1dfN6UC"
+    },
+    {
+      "id": "qksAJxwAAAAJ:8k81kl-MbHgC",
+      "title": "scATD: a high-throughput and interpretable framework for single-cell cancer drug resistance prediction and biomarker identification",
+      "authors": "M Zhou, Z Luo, YH Yin, Q Liu, G Wang, Y Zhao",
+      "venue": "Briefings in Bioinformatics 26 (3), bbaf268, 2025",
+      "year": "2025",
+      "citations": 9,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&user=qksAJxwAAAAJ&citation_for_view=qksAJxwAAAAJ%3A8k81kl-MbHgC"
+    },
+    {
+      "id": "qksAJxwAAAAJ:5nxA0vEk-isC",
+      "title": "annATAC: automatic cell type annotation for scATAC-seq data based on language model",
+      "authors": "L Cui, F Wang, H Li, Q Liu, M Zhou, G Wang",
+      "venue": "BMC biology 23 (1), 145, 2025",
+      "year": "2025",
+      "citations": 5,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&user=qksAJxwAAAAJ&citation_for_view=qksAJxwAAAAJ%3A5nxA0vEk-isC"
+    },
+    {
+      "id": "qksAJxwAAAAJ:ULOm3_A8WrAC",
+      "title": "SLGCA: spatial cross-level graph contrastive autoencoder for multislice spatial domain identification and microenvironment exploration",
+      "authors": "X Lu, M Zhou, G Wang, Q Liu, Y Zhao",
+      "venue": "Briefings in Bioinformatics 26 (6), bbaf574, 2025",
+      "year": "2025",
+      "citations": 6,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&user=qksAJxwAAAAJ&citation_for_view=qksAJxwAAAAJ%3AULOm3_A8WrAC"
+    },
+    {
+      "id": "qksAJxwAAAAJ:qxL8FJ1GzNcC",
+      "title": "HGANTLDA: a hybrid framework integrating sequence language modeling and heterogeneous graph attention for lncRNA–Disease association prediction",
+      "authors": "X Wang, SC Xiang, Y Zhao, Q Liu, B Dong, G Wang",
+      "venue": "2025 IEEE International Conference on Bioinformatics and Biomedicine (BIBM …, 2025",
+      "year": "2025",
+      "citations": 1,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&user=qksAJxwAAAAJ&citation_for_view=qksAJxwAAAAJ%3AqxL8FJ1GzNcC"
+    },
+    {
+      "id": "qksAJxwAAAAJ:Zph67rFs4hoC",
+      "title": "Comparative benchmarking of single-cell clustering algorithms for transcriptomic and proteomic data",
+      "authors": "YH Yin, F Wang, W Li, Q Liu, S Zhou, M Zhou, Z Jiang, DJ Yu, G Wang",
+      "venue": "Genome biology 26 (1), 265, 2025",
+      "year": "2025",
+      "citations": 11,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&user=qksAJxwAAAAJ&citation_for_view=qksAJxwAAAAJ%3AZph67rFs4hoC"
+    },
+    {
+      "id": "qksAJxwAAAAJ:hqOjcs7Dif8C",
+      "title": "scEAGC: an efficient anchor graph clustering for single-cell transcriptomics and proteomics data",
+      "authors": "Q Liu, Y Wang, G Wang",
+      "venue": "2024 IEEE International Conference on Bioinformatics and Biomedicine (BIBM …, 2024",
+      "year": "2024",
+      "citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&user=qksAJxwAAAAJ&citation_for_view=qksAJxwAAAAJ%3AhqOjcs7Dif8C"
+    },
+    {
+      "id": "qksAJxwAAAAJ:MXK_kJrjxJIC",
+      "title": "Using TransR to enhance drug repurposing knowledge graph for COVID-19 and its complications",
+      "authors": "H Zhao, H Li, Q Liu, G Dong, C Hou, Y Li, Y Zhao",
+      "venue": "Methods 221, 82-90, 2024",
+      "year": "2024",
+      "citations": 12,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&user=qksAJxwAAAAJ&citation_for_view=qksAJxwAAAAJ%3AMXK_kJrjxJIC"
+    },
+    {
+      "id": "qksAJxwAAAAJ:UebtZRa9Y70C",
+      "title": "Automatically detecting anchor cells and clustering for scRNA-seq data using scTSNN",
+      "authors": "Q Liu, D Zhang, D Wang, G Wang, Y Wang",
+      "venue": "IEEE Journal of Biomedical and Health Informatics 28 (11), 7015-7027, 2024",
+      "year": "2024",
+      "citations": 6,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&user=qksAJxwAAAAJ&citation_for_view=qksAJxwAAAAJ%3AUebtZRa9Y70C"
+    },
+    {
+      "id": "qksAJxwAAAAJ:0EnyYjriUFMC",
+      "title": "scWECTA: A weighted ensemble classification framework for cell type assignment based on single cell transcriptome",
+      "authors": "T Ren, S Huang, Q Liu, G Wang",
+      "venue": "Computers in Biology and Medicine 152, 106409, 2023",
+      "year": "2023",
+      "citations": 6,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&user=qksAJxwAAAAJ&citation_for_view=qksAJxwAAAAJ%3A0EnyYjriUFMC"
+    },
+    {
+      "id": "qksAJxwAAAAJ:LkGwnXOMwfcC",
+      "title": "MTGDC: A multi-scale tensor graph diffusion clustering for single-cell RNA sequencing data",
+      "authors": "Q Liu, D Wang, L Zhou, J Li, G Wang",
+      "venue": "IEEE/ACM Transactions on Computational Biology and Bioinformatics 20 (5 …, 2023",
+      "year": "2023",
+      "citations": 11,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&user=qksAJxwAAAAJ&citation_for_view=qksAJxwAAAAJ%3ALkGwnXOMwfcC"
+    },
+    {
+      "id": "qksAJxwAAAAJ:WF5omc3nYNoC",
+      "title": "scESI: evolutionary sparse imputation for single-cell transcriptomes from nearest neighbor cells",
+      "authors": "Q Liu, X Luo, J Li, G Wang",
+      "venue": "Briefings in Bioinformatics 23 (5), bbac144, 2022",
+      "year": "2022",
+      "citations": 10,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&user=qksAJxwAAAAJ&citation_for_view=qksAJxwAAAAJ%3AWF5omc3nYNoC"
+    },
+    {
+      "id": "qksAJxwAAAAJ:roLk4NBRz8UC",
+      "title": "LFSC: A linear fast semi-supervised clustering algorithm that integrates reference-bulk and single-cell transcriptomes",
+      "authors": "Q Liu, Y Liang, D Wang, J Li",
+      "venue": "Frontiers in Genetics 13, 1068075, 2022",
+      "year": "2022",
+      "citations": 3,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&user=qksAJxwAAAAJ&citation_for_view=qksAJxwAAAAJ%3AroLk4NBRz8UC"
+    },
+    {
+      "id": "qksAJxwAAAAJ:W7OEmFMy1HYC",
+      "title": "A survey on computational methods in discovering protein inhibitors of SARS-CoV-2",
+      "authors": "Q Liu, J Wan, G Wang",
+      "venue": "Briefings in Bioinformatics 23 (1), bbab416, 2022",
+      "year": "2022",
+      "citations": 26,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&user=qksAJxwAAAAJ&citation_for_view=qksAJxwAAAAJ%3AW7OEmFMy1HYC"
+    },
+    {
+      "id": "qksAJxwAAAAJ:IjCSPb-OGe4C",
+      "title": "Modified semi-supervised affinity propagation clustering with fuzzy density fruit fly optimization",
+      "authors": "R Zhou, Q Liu, J Wang, X Han, L Wang",
+      "venue": "Neural Computing and Applications 33 (10), 4695-4712, 2021",
+      "year": "2021",
+      "citations": 16,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&user=qksAJxwAAAAJ&citation_for_view=qksAJxwAAAAJ%3AIjCSPb-OGe4C"
+    },
+    {
+      "id": "qksAJxwAAAAJ:zYLM7Y9cAGgC",
+      "title": "MAF‐CNER: A Chinese Named Entity Recognition Model Based on Multifeature Adaptive Fusion",
+      "authors": "X Han, F Zhou, Z Hao, Q Liu, Y Li, Q Qin",
+      "venue": "Complexity 2021 (1), 6696064, 2021",
+      "year": "2021",
+      "citations": 19,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&user=qksAJxwAAAAJ&citation_for_view=qksAJxwAAAAJ%3AzYLM7Y9cAGgC"
+    },
+    {
+      "id": "qksAJxwAAAAJ:M3ejUd6NZC8C",
+      "title": "Chinese Clinical Named Entity Recognition Based on Stroke-Level",
+      "authors": "X Han, Q Liu, M Li",
+      "venue": "Smart Computing and Communication: 5th International Conference, SmartCom …, 2021",
+      "year": "2021",
+      "citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&user=qksAJxwAAAAJ&citation_for_view=qksAJxwAAAAJ%3AM3ejUd6NZC8C"
+    },
+    {
+      "id": "qksAJxwAAAAJ:eQOLeE2rZwMC",
+      "title": "A clustering ensemble method for cell type detection by multiobjective particle optimization",
+      "authors": "Q Liu, X Zhao, G Wang",
+      "venue": "IEEE/ACM Transactions on Computational Biology and Bioinformatics 20 (1), 1-14, 2021",
+      "year": "2021",
+      "citations": 9,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&user=qksAJxwAAAAJ&citation_for_view=qksAJxwAAAAJ%3AeQOLeE2rZwMC"
+    },
+    {
+      "id": "qksAJxwAAAAJ:Tyk-4Ss8FVUC",
+      "title": "Chinese Clinical Named Entity Recognition Based on Stroke-Level and Radical-Level Features",
+      "authors": "F Zhou, X Han, Q Liu, M Li, Y Li",
+      "venue": "International Conference on Smart Computing and Communication, 9-18, 2020",
+      "year": "2020",
+      "citations": 4,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&user=qksAJxwAAAAJ&citation_for_view=qksAJxwAAAAJ%3ATyk-4Ss8FVUC"
+    },
+    {
+      "id": "qksAJxwAAAAJ:9yKSN-GCB0IC",
+      "title": "An improved fruit fly optimization algorithm based on knowledge memory",
+      "authors": "X Han, Q Liu, L Wang, H Lu, L Zhou, J Wang",
+      "venue": "International Journal of Computers and Applications 42 (6), 558-568, 2020",
+      "year": "2020",
+      "citations": 4,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&user=qksAJxwAAAAJ&citation_for_view=qksAJxwAAAAJ%3A9yKSN-GCB0IC"
+    },
+    {
+      "id": "qksAJxwAAAAJ:u5HHmVD_uO8C",
+      "title": "Novel fruit fly optimization algorithm with trend search and co-evolution",
+      "authors": "X Han, Q Liu, H Wang, L Wang",
+      "venue": "Knowledge-Based Systems 141, 1-17, 2018",
+      "year": "2018",
+      "citations": 63,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&user=qksAJxwAAAAJ&citation_for_view=qksAJxwAAAAJ%3Au5HHmVD_uO8C"
+    },
+    {
+      "id": "qksAJxwAAAAJ:u-x6o8ySG0sC",
+      "title": "Density peak clustering algorithm using knowledge learning-based fruit fly optimization",
+      "authors": "R Zhou, Q Liu, X Han, L Wang",
+      "venue": "International Journal of Computers and Applications 40 (3), 1-10, 2018",
+      "year": "2018",
+      "citations": 8,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&user=qksAJxwAAAAJ&citation_for_view=qksAJxwAAAAJ%3Au-x6o8ySG0sC"
+    },
+    {
+      "id": "qksAJxwAAAAJ:2osOgNQ5qMEC",
+      "title": "Improved fruit fly optimization algorithm-based density peak clustering and its applications",
+      "authors": "R Zhou, Q Liu, Z Xu, L Wang, X Han",
+      "venue": "Tehnički vjesnik 24 (2), 473-480, 2017",
+      "year": "2017",
+      "citations": 18,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&user=qksAJxwAAAAJ&citation_for_view=qksAJxwAAAAJ%3A2osOgNQ5qMEC"
+    },
+    {
+      "id": "qksAJxwAAAAJ:3fE2CSJIrl8C",
+      "title": "Fruit fly optimization algorithm based on Cauchy mutation",
+      "authors": "HAN Xu-ming, QIU Bing, LIU Qiao-ming, Z Li-yuan, W Li-min",
+      "venue": "Microelectronics & Computer 34 (11), 26-30, 2017",
+      "year": "2017",
+      "citations": 2,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&user=qksAJxwAAAAJ&citation_for_view=qksAJxwAAAAJ%3A3fE2CSJIrl8C"
+    }
+  ]
+}
