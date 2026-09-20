@@ -58,15 +58,24 @@ window.addEventListener('DOMContentLoaded', event => {
                 document.getElementById(name + '-md').innerHTML = html;
                 if (name === 'news') {
                     const hasNews = Boolean(document.querySelector('#news-md li'));
-                    document.getElementById('news').hidden = !hasNews;
-                    document.getElementById('news-nav').hidden = !hasNews;
+                    if (!hasNews) {
+                        document.getElementById('news-md').innerHTML = '<p>暂无新闻 / No news yet.</p>';
+                    }
                 }
                 bootstrap.ScrollSpy.getInstance(document.body)?.refresh();
             }).then(() => {
                 // MathJax
-                MathJax.typeset();
+                if (window.MathJax?.typesetPromise) {
+                    MathJax.typesetPromise([document.getElementById(name + '-md')])
+                        .catch(error => console.log(error));
+                }
             })
-            .catch(error => console.log(error));
+            .catch(error => {
+                console.log(error);
+                if (name === 'news' && !document.querySelector('#news-md li')) {
+                    document.getElementById('news-md').innerHTML = '<p>新闻暂时无法加载，请稍后刷新 / Unable to load news. Please refresh later.</p>';
+                }
+            });
     })
 
 }); 
