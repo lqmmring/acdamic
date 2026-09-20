@@ -30,14 +30,8 @@
 #### 学术兼职
 
 <!-- module:services-zh:start -->
-* 国家自然基金面上、青年项目评议专家
-* 中国计算机学会（CCF）生物信息学专委会 &ensp;	委员
-* 中国计算机学会（CCF）Bio 3news委员会 &ensp;	执行委员
-* 国际生物信息学和生物医学会议（BIBM） &ensp;	程序委员
-* Cell Proliferation、Medicine  Advance、Phenomics&ensp;	青年编委 
-* 《Bioinformatics》、《Briefings in Bioinformatics》、《Frontiers in Genetics》、《PLOS Computational Biology》等生物信息学期刊审稿人。
-
-
+中国计算机学会 生物信息学专业委员会 执行委员
+中国人工智能学会 生物信息学与人工生命专业委员会 执行委员
 <!-- module:services-zh:end -->
 #### Academic Services
 
