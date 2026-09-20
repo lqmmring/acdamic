@@ -1,0 +1,42 @@
+name: Sync Google Scholar
+
+on:
+  schedule:
+    # Check daily at 10:17 Beijing time; fetch only after 15 days since success.
+    - cron: '17 2 * * *'
+  workflow_dispatch:
+    inputs:
+      force:
+        description: '立即同步，忽略 15 天间隔（不要频繁运行）'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: scholar-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Fetch and merge Scholar profile
+        env:
+          GH_TOKEN: ${{ github.token }}
+          FORCE_SYNC: ${{ inputs.force }}
+        run: |
+          if [ "$FORCE_SYNC" = "true" ]; then
+            python scripts/sync_scholar.py --force
+          else
+            python scripts/sync_scholar.py
+          fi

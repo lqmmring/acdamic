@@ -186,7 +186,50 @@ contents/config.yml：网页标题、姓名、横幅标语、版权信息。
 如果在本地编辑，先同步 GitHub 上由表单生成的最新提交，处理好本地未提交修改，
 再编辑、提交并推送，避免与自动更新产生冲突。
 
-九、维护者配置说明
+九、每隔 15 天自动同步 Google Scholar
+
+来源：https://scholar.google.com/citations?user=qksAJxwAAAAJ
+工作流：https://github.com/lqmmring/acdamic/actions/workflows/sync-scholar.yml
+
+原有论文表单继续使用。自动同步与手工录入可以同时存在。
+每天北京时间约 10:17 检查一次，距离上次成功同步满 15 天才读取 Scholar。
+不是固定每月 1 日、16 日；GitHub 任务可能排队，实际同步可能稍晚。
+首次运行会立即同步，成功后开始下一个 15 天周期。
+
+同步内容：
+- 补充 Scholar 中已有、但主页尚未展示的论文，按标题去重。
+- 自动导入条目按年份倒序，更新年份、刊物和引用次数。
+- 手工条目的作者、通讯标记、链接和正文保持原样；附加 Scholar 收录信息和引用次数。
+- Scholar 中包含会议论文或预印本时也会导入，请以记录中的刊物信息为准。
+- Scholar 列表有时截断作者、刊物名称，系统不会自行猜测完整内容或通讯作者身份。
+
+立即同步：
+1. 打开以上工作流链接。
+2. 点击 Run workflow，选择 pesonal 分支。
+3. 如未满 15 天但确需同步，勾选 force 后运行。不要频繁抓取。
+4. 等待 Sync Google Scholar 和后续 Pages 部署成功，再刷新主页。
+
+修正自动导入的论文：
+使用原有“新增或更新论文”表单，填写相同标题及准确的完整信息。
+提交后手工版本会取代匹配的自动条目；后续同步仍保留手工正文。
+不要直接编辑 scholar-publications 标记之间的自动区，下次同步会重新生成它。
+
+排除某篇自动论文或解决标题差异：
+编辑 contents/scholar-config.json（JSON 格式）。
+excluded_ids：填写需要排除的 Scholar 记录 ID，可从 scholar-state.json 中查到。
+title_aliases：以 Scholar 标题为键、主页已有标题为值，处理拼写差异导致的重复。
+提交配置后可强制同步使其立即生效。手工条目不会因 excluded_ids 而被删除。
+profile_id 是作者主页标识；不要随意改为其他人的 ID。
+
+错误与边界：
+Google Scholar 可能限流或返回验证码，此时同步失败但原主页保持不变。
+抓取失败不会记录新的成功时间，下一次每日检查会重试。
+若 Scholar 暂时缺少一篇已同步论文，保留已有记录，不自动删除。
+若提交已成功但后续 Pages 构建请求失败，请重新强制同步并检查部署日志。
+GitHub 公共仓库长期无活动时，定时任务可能自动停用；可到 Actions 重新启用。
+不要将抓取失败误认为论文已经删除或没有新论文，应查看工作流日志。
+
+十、维护者配置说明
 
 默认分支和 Pages 发布分支目前均为 pesonal（保留仓库原有拼写）。
 Pages 使用 Settings → Pages → Deploy from a branch，目录为 /(root)。
@@ -199,6 +242,9 @@ Pages 使用 Settings → Pages → Deploy from a branch，目录为 /(root)。
 工作流：.github/workflows/publish-publication.yml
 更新脚本：scripts/publish_publication.py
 模块定义与更新逻辑：scripts/content_modules.py
+Scholar 同步：scripts/sync_scholar.py、.github/workflows/sync-scholar.yml
+Scholar 配置：contents/scholar-config.json
+Scholar 同步状态：contents/scholar-state.json（首次成功后自动生成）
 
 本地测试命令：
 python -m unittest discover -s scripts -p "test_*.py" -v

@@ -68,6 +68,10 @@ def citation(values):
 
 
 def update_markdown(original, number, values):
+    # A manually curated version takes precedence over a Scholar-imported row.
+    if '<!-- scholar-publications:start -->' in original:
+        from sync_scholar import prefer_manual_entry
+        original = prefer_manual_entry(original, values['论文标题'])
     if original.count(HEADING) != 1:
         raise ValueError('论文列表标题缺失或重复，请检查 publications.md')
     prefix, entries = original.split(HEADING, 1)
