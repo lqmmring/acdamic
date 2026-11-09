@@ -1,7 +1,7 @@
 {
   "profile_id": "qksAJxwAAAAJ",
-  "last_success_at": "2026-10-21T07:36:05.615189+00:00",
-  "fetched_count": 29,
+  "last_success_at": "2026-11-09T09:45:01.360364+00:00",
+  "fetched_count": 30,
   "records": [
     {
       "id": "qksAJxwAAAAJ:4TOpqqG69KYC",
@@ -22,12 +22,21 @@
       "url": "https://scholar.google.com/citations?view_op=view_citation&user=qksAJxwAAAAJ&citation_for_view=qksAJxwAAAAJ%3AWp0gIr-vW9MC"
     },
     {
+      "id": "qksAJxwAAAAJ:mVmsd5A6BfQC",
+      "title": "TRACER: Twin-contrastive learning for fine-grained and rare spatial domain identification in spatial transcriptomics",
+      "authors": "Q Liu, X Lu, B Song, Q Wei, W Feng, K Guo, J Wang, M Zhou, Y Zhao, ...",
+      "venue": "Bioinformatics, btag805, 2026",
+      "year": "2026",
+      "citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&user=qksAJxwAAAAJ&citation_for_view=qksAJxwAAAAJ%3AmVmsd5A6BfQC"
+    },
+    {
       "id": "qksAJxwAAAAJ:YOwf2qJgpHMC",
       "title": "Single-cell phenotype-associated subpopulation identification via transfer foundation model and statistical ensemble learning",
       "authors": "Y Zhao, X Pan, Z Luo, Q Liu",
       "venue": "BMC biology 24 (1), 140, 2026",
       "year": "2026",
-      "citations": 1,
+      "citations": 2,
       "url": "https://scholar.google.com/citations?view_op=view_citation&user=qksAJxwAAAAJ&citation_for_view=qksAJxwAAAAJ%3AYOwf2qJgpHMC"
     },
     {
@@ -63,7 +72,7 @@
       "authors": "M Zhou, Z Luo, YH Yin, Q Liu, G Wang, Y Zhao",
       "venue": "Briefings in Bioinformatics 26 (3), bbaf268, 2025",
       "year": "2025",
-      "citations": 11,
+      "citations": 12,
       "url": "https://scholar.google.com/citations?view_op=view_citation&user=qksAJxwAAAAJ&citation_for_view=qksAJxwAAAAJ%3A8k81kl-MbHgC"
     },
     {
@@ -81,7 +90,7 @@
       "authors": "X Lu, M Zhou, G Wang, Q Liu, Y Zhao",
       "venue": "Briefings in Bioinformatics 26 (6), bbaf574, 2025",
       "year": "2025",
-      "citations": 7,
+      "citations": 8,
       "url": "https://scholar.google.com/citations?view_op=view_citation&user=qksAJxwAAAAJ&citation_for_view=qksAJxwAAAAJ%3AULOm3_A8WrAC"
     },
     {
@@ -99,7 +108,7 @@
       "authors": "YH Yin, F Wang, W Li, Q Liu, S Zhou, M Zhou, Z Jiang, DJ Yu, G Wang",
       "venue": "Genome biology 26 (1), 265, 2025",
       "year": "2025",
-      "citations": 14,
+      "citations": 15,
       "url": "https://scholar.google.com/citations?view_op=view_citation&user=qksAJxwAAAAJ&citation_for_view=qksAJxwAAAAJ%3AZph67rFs4hoC"
     },
     {
@@ -126,7 +135,7 @@
       "authors": "Q Liu, D Zhang, D Wang, G Wang, Y Wang",
       "venue": "IEEE Journal of Biomedical and Health Informatics 28 (11), 7015-7027, 2024",
       "year": "2024",
-      "citations": 6,
+      "citations": 7,
       "url": "https://scholar.google.com/citations?view_op=view_citation&user=qksAJxwAAAAJ&citation_for_view=qksAJxwAAAAJ%3AUebtZRa9Y70C"
     },
     {
